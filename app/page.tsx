@@ -115,14 +115,14 @@ export default function Home() {
           </RevealOnScroll>
           <RevealOnScroll delay={0.15}>
             <p className="text-[0.72rem] tracking-[0.25em] uppercase text-gold font-semibold mb-4">
-              Sobre Patricia
+              Sobre Pato
             </p>
             <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-charcoal mb-6 leading-tight">
               Una buscadora desde siempre
             </h2>
             <div className="space-y-5 text-warm-gray text-[0.95rem] leading-relaxed">
               <p>
-                Soy Patricia Alejandra Bordas. Desde muy joven, el cuerpo fue mi puerta de entrada:
+                Soy Pato Alejandra Bordas. Desde muy joven, el cuerpo fue mi puerta de entrada:
                 la danza, el movimiento, la energía. Comencé a estudiar danzas a los 10 años y me
                 recibí de Profesora de Educación Física.
               </p>
@@ -337,7 +337,7 @@ export default function Home() {
             No necesitás estar lista. Solo necesitás sentir el llamado.
           </p>
           <a
-            href={waLink("Hola Patricia! Quiero comenzar a practicar")}
+            href={waLink("Hola Pato! Quiero comenzar a practicar")}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-gold text-white px-10 py-4 text-[0.82rem] tracking-[0.15em] uppercase font-semibold no-underline hover:bg-gold-light transition-all"
