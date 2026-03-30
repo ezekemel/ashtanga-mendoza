@@ -354,7 +354,7 @@ export default function Home() {
         </p>
         <div className="flex justify-center gap-6 my-6">
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/ashtangamzatemplo/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white/60 text-[0.78rem] tracking-[0.12em] uppercase no-underline hover:text-gold-light transition-colors"
