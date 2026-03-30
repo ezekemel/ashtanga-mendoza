@@ -122,7 +122,7 @@ export default function Home() {
             </h2>
             <div className="space-y-5 text-warm-gray text-[0.95rem] leading-relaxed">
               <p>
-                Soy Pato Alejandra Bordas. Desde muy joven, el cuerpo fue mi puerta de entrada:
+                Soy Patricia Alejandra Bordas. Desde muy joven, el cuerpo fue mi puerta de entrada:
                 la danza, el movimiento, la energía. Comencé a estudiar danzas a los 10 años y me
                 recibí de Profesora de Educación Física.
               </p>
