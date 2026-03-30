@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import RevealOnScroll from "./components/RevealOnScroll";
 import WhatsAppButton from "./components/WhatsAppButton";
 
-const WA = "5492615555555";
+const WA = "542614725689";
 const waLink = (msg: string) =>
   `https://wa.me/${WA}?text=${encodeURIComponent(msg)}`;
 
@@ -48,9 +48,9 @@ const testimonials = [
 ];
 
 const plans = [
-  { title: "Clase Suelta", desc: "Probá una clase sin compromiso. Ideal para conocer la Shala y sentir la práctica por primera vez.", msg: "Hola Patricia! Quiero consultar por una clase suelta", featured: false },
-  { title: "Mensualidad", desc: "Acceso regular a clases guiadas e iniciación. La mejor forma de sostener tu práctica con constancia.", msg: "Hola Patricia! Quiero consultar por la mensualidad", featured: true },
-  { title: "Mysore Ilimitada", desc: "Autopráctica sin límites. Para quienes quieren sumergirse en la disciplina diaria del Ashtanga.", msg: "Hola Patricia! Quiero consultar por Mysore ilimitada", featured: false },
+  { title: "Clase Suelta", desc: "Probá una clase sin compromiso. Ideal para conocer la Shala y sentir la práctica por primera vez.", msg: "Hola Pato! Quiero consultar por una clase suelta", featured: false },
+  { title: "Mensualidad", desc: "Acceso regular a clases guiadas e iniciación. La mejor forma de sostener tu práctica con constancia.", msg: "Hola Pato! Quiero consultar por la mensualidad", featured: true },
+  { title: "Mysore Ilimitada", desc: "Autopráctica sin límites. Para quienes quieren sumergirse en la disciplina diaria del Ashtanga.", msg: "Hola Pato! Quiero consultar por Mysore ilimitada", featured: false },
 ];
 
 /* ------------------------------------------------------------------ */
