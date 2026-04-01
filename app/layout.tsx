@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Quicksand, Nunito_Sans } from "next/font/google";
+import { Cormorant_Garamond, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 
-const quicksand = Quicksand({
+const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
+  style: ["normal", "italic"],
   variable: "--font-heading",
   display: "swap",
 });
@@ -39,7 +40,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es" className={`${quicksand.variable} ${nunito.variable}`}>
+    <html lang="es" className={`${cormorant.variable} ${nunito.variable}`}>
       <body>{children}</body>
     </html>
   );
