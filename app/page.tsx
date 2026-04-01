@@ -79,7 +79,7 @@ export default function Home() {
           <p className="text-[0.78rem] tracking-[0.25em] uppercase text-gold-light font-normal mb-6">
             Ashtanga Mendoza Templo
           </p>
-          <h1 className="font-serif text-[clamp(2.5rem,6vw,4.2rem)] text-white font-light italic mb-5 leading-tight">
+          <h1 className="font-heading text-[clamp(2.5rem,6vw,4.2rem)] text-white font-light italic mb-5 leading-tight">
             Practicar es volver a casa
           </h1>
           <p className="text-[1.05rem] text-white/85 max-w-[520px] mx-auto mb-10 font-light leading-relaxed">
@@ -117,7 +117,7 @@ export default function Home() {
             <p className="text-[0.72rem] tracking-[0.25em] uppercase text-gold font-semibold mb-4">
               Sobre Pato
             </p>
-            <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-charcoal mb-6 leading-tight">
+            <h2 className="font-heading text-[clamp(2rem,4vw,3rem)] text-charcoal mb-6 leading-tight">
               Una buscadora desde siempre
             </h2>
             <div className="space-y-5 text-warm-gray text-[0.95rem] leading-relaxed">
@@ -140,7 +140,7 @@ export default function Home() {
                 el cuerpo como territorio de verdad y en la práctica como un regreso a lo esencial.
               </p>
             </div>
-            <p className="font-serif text-[1.4rem] italic text-earth mt-8 pl-6 border-l-2 border-gold">
+            <p className="font-heading text-[1.4rem] italic text-earth mt-8 pl-6 border-l-2 border-gold">
               Practicar no es exigirse… es recordarse.
             </p>
           </RevealOnScroll>
@@ -154,7 +154,7 @@ export default function Home() {
             <p className="text-[0.72rem] tracking-[0.25em] uppercase text-gold font-semibold mb-4">
               La Práctica
             </p>
-            <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-charcoal mb-6 leading-tight">
+            <h2 className="font-heading text-[clamp(2rem,4vw,3rem)] text-charcoal mb-6 leading-tight">
               Movimiento, respiración, silencio
             </h2>
             <p className="text-warm-gray text-[1.05rem]">
@@ -175,14 +175,14 @@ export default function Home() {
                 <span className="inline-block text-[0.68rem] tracking-[0.12em] uppercase text-gold font-semibold mb-3">
                   {card.tag}
                 </span>
-                <h3 className="font-serif text-[1.4rem] mb-2">{card.title}</h3>
+                <h3 className="font-heading text-[1.4rem] mb-2">{card.title}</h3>
                 <p className="text-warm-gray text-[0.9rem]">{card.desc}</p>
               </RevealOnScroll>
             ))}
           </div>
 
           <RevealOnScroll className="text-center mt-12">
-            <p className="font-serif text-[1.3rem] italic text-earth">
+            <p className="font-heading text-[1.3rem] italic text-earth">
               No necesitás experiencia previa. Solo el deseo de habitarte.
             </p>
           </RevealOnScroll>
@@ -200,7 +200,7 @@ export default function Home() {
           <p className="text-[0.72rem] tracking-[0.25em] uppercase text-gold-light font-semibold mb-4">
             El Espacio
           </p>
-          <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-white mb-4 leading-tight">
+          <h2 className="font-heading text-[clamp(2rem,4vw,3rem)] text-white mb-4 leading-tight">
             Un templo cotidiano
           </h2>
           <p className="text-[1.1rem] text-white/85 max-w-[550px] mx-auto">
@@ -220,7 +220,7 @@ export default function Home() {
             <p className="text-[0.72rem] tracking-[0.25em] uppercase text-gold font-semibold mb-4">
               Experiencias
             </p>
-            <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-charcoal mb-6 leading-tight">
+            <h2 className="font-heading text-[clamp(2rem,4vw,3rem)] text-charcoal mb-6 leading-tight">
               La práctica se expande a la vida
             </h2>
           </RevealOnScroll>
@@ -233,7 +233,7 @@ export default function Home() {
                 className="text-center p-8 px-6 bg-white rounded hover:-translate-y-1 transition-transform"
               >
                 <div className="text-[2rem] mb-4">{exp.icon}</div>
-                <h4 className="font-serif text-[1.2rem] mb-2">{exp.title}</h4>
+                <h4 className="font-heading text-[1.2rem] mb-2">{exp.title}</h4>
                 <p className="text-[0.85rem] text-warm-gray">{exp.desc}</p>
               </RevealOnScroll>
             ))}
@@ -248,7 +248,7 @@ export default function Home() {
             <p className="text-[0.72rem] tracking-[0.25em] uppercase text-gold font-semibold mb-4">
               Testimonios
             </p>
-            <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-charcoal mb-6 leading-tight">
+            <h2 className="font-heading text-[clamp(2rem,4vw,3rem)] text-charcoal mb-6 leading-tight">
               Voces de quienes practican
             </h2>
           </RevealOnScroll>
@@ -260,7 +260,7 @@ export default function Home() {
                 delay={i * 0.1}
                 className="p-10 px-8 bg-white rounded border-t-[3px] border-gold"
               >
-                <p className="font-serif text-[1.15rem] italic text-charcoal leading-relaxed mb-6">
+                <p className="font-heading text-[1.15rem] italic text-charcoal leading-relaxed mb-6">
                   &ldquo;{t.quote}&rdquo;
                 </p>
                 <p className="text-[0.82rem] tracking-[0.08em] uppercase text-earth font-semibold">
@@ -279,7 +279,7 @@ export default function Home() {
             <p className="text-[0.72rem] tracking-[0.25em] uppercase text-gold font-semibold mb-4">
               Planes
             </p>
-            <h2 className="font-serif text-[clamp(2rem,4vw,3rem)] text-charcoal mb-6 leading-tight">
+            <h2 className="font-heading text-[clamp(2rem,4vw,3rem)] text-charcoal mb-6 leading-tight">
               Elegí tu forma de practicar
             </h2>
           </RevealOnScroll>
@@ -298,7 +298,7 @@ export default function Home() {
                     Más elegido
                   </span>
                 )}
-                <h3 className="font-serif text-[1.6rem] mb-2">{plan.title}</h3>
+                <h3 className="font-heading text-[1.6rem] mb-2">{plan.title}</h3>
                 <p className="text-warm-gray text-[0.88rem] mb-6">{plan.desc}</p>
                 <a
                   href={waLink(plan.msg)}
@@ -330,7 +330,7 @@ export default function Home() {
         </div>
         <div className="absolute inset-0 bg-[rgba(30,25,18,0.6)]" />
         <RevealOnScroll className="relative z-10">
-          <h2 className="font-serif text-[clamp(2rem,5vw,3.2rem)] text-white italic mb-4 leading-tight">
+          <h2 className="font-heading text-[clamp(2rem,5vw,3.2rem)] text-white italic mb-4 leading-tight">
             El momento es ahora
           </h2>
           <p className="text-white/85 text-[1.1rem] mb-10">
@@ -349,7 +349,7 @@ export default function Home() {
 
       {/* ===== FOOTER ===== */}
       <footer className="bg-charcoal text-white/50 py-12 px-8 text-center text-[0.82rem] tracking-wider">
-        <p className="font-serif text-[1.2rem] text-white font-normal mb-2">
+        <p className="font-heading text-[1.2rem] text-white font-normal mb-2">
           Ashtanga Mendoza Templo
         </p>
         <div className="flex justify-center gap-6 my-6">
